@@ -1,0 +1,37 @@
+{
+    "name": "ironsworn-starforged",
+    "title": "Ironsworn and Starforged",
+    "description": "A huge collection of tables and macros to expand Ironsworn and Starforged",
+    "version": "0.01",
+    "author": "Dice T",
+    "minimumCoreVersion": "0.7.5",
+    "compatibleCoreVersion": "0.8.6",
+    "packs": [
+        {
+            "name": "ironsworn-shared-macros",
+            "label": "Ironsworn Shared Macros",
+            "path": "./packs/ironsworn-macros.db",
+            "entity": "Macro"
+        },
+        {
+            "name": "starforged-shared-macros",
+            "label": "Starforged Shared Macros",
+            "path": "./packs/starforged-macros.db",
+            "entity": "Macro"
+        },
+        {
+            "name": "ironsworn-roll-tables",
+            "label": "Ironsworn Roll Tables",
+            "path": "./packs/ironsworn-roll-tables.db",
+            "entity": "RollTable"
+        },
+        {
+            "name": "starforged-roll-tables",
+            "label": "Starforged Roll Tables",
+            "path": "./packs/starforged-roll-tables.db",
+            "entity": "RollTable"
+        }
+    ],
+    "manifest": "",
+    "download": ""
+}
